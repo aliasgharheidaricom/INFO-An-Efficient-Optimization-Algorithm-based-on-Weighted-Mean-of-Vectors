@@ -1,7 +1,10 @@
 # INFO: An Efficient Optimization Algorithm based on Weighted Mean of Vectors
 Source codes for the paper: INFO: An Efficient Optimization Algorithm based on Weighted Mean of Vectors, Expert Systems with Applications, 2022, 116516, doi: https://doi.org/10.1016/j.eswa.2022.116516
-Link: https://www.sciencedirect.com/science/article/abs/pii/S0957417422000173
-Link: https://www.researchgate.net/publication/357865558_INFO_An_Efficient_Optimization_Algorithm_based_on_Weighted_Mean_of_Vectors
+
+Elsevier Link: https://www.sciencedirect.com/science/article/abs/pii/S0957417422000173
+Researchgate Link: https://www.researchgate.net/publication/357865558_INFO_An_Efficient_Optimization_Algorithm_based_on_Weighted_Mean_of_Vectors
+codeocean link: https://codeocean.com/capsule/9838356/tree
+Mathworks link: https://www.mathworks.com/matlabcentral/fileexchange/105355-info-efficient-optimizer-based-on-weighted-mean-of-vectors
 
 The MATLAB source codes of this algorithm are also publicly available at https://aliasgharheidari.com/INFO.html. 
 
