@@ -83,9 +83,9 @@ function [Best_Cost,Best_X,Convergence_curve]=INFO(nP,MaxIt,lb,ub,dim,fobj)
                 omg = max([M(a) M(b) M(c)]);
                 MM = [(M(a)-M(b)) (M(a)-M(c)) (M(b)-M(c))];
                 
-                W(1) = cos(MM(1)+pi)*exp(-(MM(1))/omg);                                           % Eq. (4.2)
-                W(2) = cos(MM(2)+pi)*exp(-(MM(2))/omg);                                           % Eq. (4.3)
-                W(3)= cos(MM(3)+pi)*exp(-(MM(3))/omg);                                            % Eq. (4.4)
+                W(1) = cos(MM(1)+pi)*exp(-abs(MM(1)/omg));                                           % Eq. (4.2)
+                W(2) = cos(MM(2)+pi)*exp(-abs(MM(2)/omg));                                           % Eq. (4.3)
+                W(3)= cos(MM(3)+pi)*exp(-abs(MM(3)/omg));                                            % Eq. (4.4)
                 Wt = sum(W);
                 
                 WM1 = del.*(W(1).*(X(a,:)-X(b,:))+W(2).*(X(a,:)-X(c,:))+ ...                      % Eq. (4.1)
@@ -94,9 +94,9 @@ function [Best_Cost,Best_X,Convergence_curve]=INFO(nP,MaxIt,lb,ub,dim,fobj)
                 omg = max([M_Best M_Better M_Worst]);
                 MM = [(M_Best-M_Better) (M_Best-M_Better) (M_Better-M_Worst)];
                 
-                W(1) = cos(MM(1)+pi)*exp(-MM(1)/omg);                                             % Eq. (4.7)
-                W(2) = cos(MM(2)+pi)*exp(-MM(2)/omg);                                             % Eq. (4.8)
-                W(3) = cos(MM(3)+pi)*exp(-MM(3)/omg);                                             % Eq. (4.9)
+                W(1) = cos(MM(1)+pi)*exp(-abs(MM(1)/omg));                                        % Eq. (4.7)
+                W(2) = cos(MM(2)+pi)*exp(-abs(MM(2)/omg));                                             % Eq. (4.8)
+                W(3) = cos(MM(3)+pi)*exp(-abs(MM(3)/omg));                                             % Eq. (4.9)
                 Wt = sum(W);
                 
                 WM2 = del.*(W(1).*(Best_X-Better_X)+W(2).*(Best_X-Worst_X)+ ...                   % Eq. (4.6)
