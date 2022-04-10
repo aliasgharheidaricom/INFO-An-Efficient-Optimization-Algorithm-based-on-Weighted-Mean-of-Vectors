@@ -37,3 +37,9 @@ The source codes of this algorithm will be publicly available at https://imanahm
        Homepage: https://aliasgharheidari.com/INFO.html
                  https://www.researchgate.net/publication/357865558_INFO_An_Efficient_Optimization_Algorithm_based_on_Weighted_Mean_of_Vectors
                  https://imanahmadianfar.com
+
+## Support
+
+Support this high quality research by 'FORK', 'STAR' and 'SHARE'.
+
+[![Forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
