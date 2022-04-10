@@ -1,3 +1,14 @@
+![GitHub](https://img.shields.io/github/license/aliasgharheidaricom/INFO-An-Efficient-Optimization-Algorithm-based-on-Weighted-Mean-of-Vectors)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/aliasgharheidaricom/INFO-An-Efficient-Optimization-Algorithm-based-on-Weighted-Mean-of-Vectors)
+![GitHub repo size](https://img.shields.io/github/repo-size/aliasgharheidaricom/INFO-An-Efficient-Optimization-Algorithm-based-on-Weighted-Mean-of-Vectors)
+![GitHub language count](https://img.shields.io/github/languages/count/aliasgharheidaricom/INFO-An-Efficient-Optimization-Algorithm-based-on-Weighted-Mean-of-Vectors)
+![GitHub last commit](https://img.shields.io/github/last-commit/aliasgharheidaricom/INFO-An-Efficient-Optimization-Algorithm-based-on-Weighted-Mean-of-Vectors)
+
+<div align="center">
+  <img src="https://www.mathworks.com/matlabcentral/mlc-downloads/downloads/5f3a3c8f-8eb1-48e2-b903-9f2aca7e3010/fe916244-2c06-4006-8eea-9236fffed729/images/1642506183.png">
+</div>
+
+
 # INFO: An Efficient Optimization Algorithm based on Weighted Mean of Vectors
 Source codes for the paper: INFO: An Efficient Optimization Algorithm based on Weighted Mean of Vectors, Expert Systems with Applications, 2022, 116516, doi: https://doi.org/10.1016/j.eswa.2022.116516
 
